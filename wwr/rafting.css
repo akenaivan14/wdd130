@@ -9,14 +9,14 @@
 
 /* CSS Variables - Color Scheme */
 :root {
-  --primary-color: #2c5530; /* Deep forest green */
-  --secondary-color: #4a7c59; /* Medium sage green */
-  --accent1-color: #8fbc8f; /* Light sea green */
-  --accent2-color: #d4e6b5; /* Pale lime green */
-  --neutral-dark: #2f3e46; /* Dark slate for text */
-  --neutral-light: #f8f9fa; /* Off-white background */
-  --heading-font: "Montserrat", "Arial Black", sans-serif;
-  --body-font: "Open Sans", Arial, sans-serif;
+  --primary-color: #2c5530;     /* Deep forest green */
+  --secondary-color: #4a7c59;   /* Medium sage green */
+  --accent1-color: #8fbc8f;     /* Light sea green */
+  --accent2-color: #d4e6b5;     /* Pale lime green */
+  --neutral-dark: #2f3e46;      /* Dark slate for text */
+  --neutral-light: #f8f9fa;     /* Off-white background */
+  --heading-font: "Arial Black", Arial, sans-serif;
+  --body-font: Arial, sans-serif;
 }
 
 /* Base Styles */
@@ -104,6 +104,7 @@ p {
   margin: 2rem 0;
   border-radius: 8px;
   overflow: hidden;
+  background-color: var(--secondary-color); /* fallback if no image */
 }
 
 .hero img {
@@ -118,7 +119,7 @@ p {
   width: 100%;
   padding: 1rem;
   text-align: center;
-  background-color: rgba(47, 62, 70, 0.8); /* semi-transparent dark background */
+  background-color: rgba(47, 62, 70, 0.8); /* semi-transparent dark */
   color: white;
   font-size: 2.5rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
