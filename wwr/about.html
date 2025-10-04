@@ -1,197 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="styles/rafting.css">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Learn about our whitewater rafting company, our mission, history, and the team that makes every adventure unforgettable.">
-    <meta name="author" content="[Your Full Name]">
-    <title>About Us - Maguire and Ivan Water Rafting adventures Company</title>
-    <style>
-        /* Basic styling to make the page presentable */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            line-height: 1.6;
-            color: #333;
-        }
-
-        header {
-            background-color: #1a5276;
-            color: white;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 1.5rem;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            position: relative;
-            height: 400px;
-            background-color: #3498db;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        article {
-            display: flex;
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        article img {
-            width: 300px;
-            height: 200px;
-            object-fit: cover;
-            margin-right: 2rem;
-            border-radius: 8px;
-        }
-
-        section {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        section h2 {
-            margin-bottom: 1rem;
-            color: #1a5276;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        footer {
-            background-color: #1a5276;
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-        }
-
-        .socialmedia {
-            margin-top: 1rem;
-        }
-
-        .socialmedia a {
-            margin: 0 0.5rem;
-            display: inline-block;
-        }
-
-        .socialmedia img {
-            width: 30px;
-            height: 30px;
-            filter: invert(1);
-        }
-    </style>
+    <meta name="author" content="Ivan Akena">
+    <title>About Us - Maguire and Ivan Water Rafting Adventures Company</title>
+    <!-- External stylesheet only -->
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <!-- Add your logo here -->
-            <img src="images/raftlogo.jpg" alt="logo @ company">
+            <img src="images/raftlogo.jpg" alt="Company Logo">
         </div>
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
+            <a href="about.html" class="active">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section with overlay -->
         <div class="hero">
-            <!-- Hero image will be added as background in CSS -->
-            <h1>MAGUIRE AND IVAN WATER RAFTING ADVENTURES UGANDA</h1>
+            <img src="images/water1(2).jpg" alt="Rafting Adventure" class="hero-img">
+            <div class="hero-overlay">
+                <h1>MAGUIRE AND IVAN WATER RAFTING ADVENTURES UGANDA</h1>
+            </div>
         </div>
 
+        <!-- Article with floated image -->
         <article>
-            <img src="images/water1(2).jpg" alt="Happy client or employee">
-            <img src="images/water2.jpg" alt="fun adventure">
-            <img src="images/water3.jpg" alt="memorable events">
-            <img src="images/water4.jpg" alt="adventure of a life time">
-            <img src="images/water5.jpg" alt="get your moneys' worth">
+            <img src="images/water2.jpg" alt="Fun Adventure" class="float-right">
+            <img src="images/water3.jpgfun" alt="fun">
+            <img src="images/water4.jpg" alt="memorable">
+            <img src="images/water5.jpg" alt="unforgettable">
             <p>
-                GIVING YOU A MEMORABLE WATER RAFTING EXPERIENCE
-
+                GIVING YOU A MEMORABLE WATER RAFTING EXPERIENCE.
+                We create thrilling adventures while ensuring safety, comfort, and unforgettable moments for everyone.
             </p>
         </article>
 
         <section>
             <h2>History</h2>
             <p>
-                FOUNDED BACK IN 2001, MAGUIRE AND IVAN WATER RAFTING COMPANY HAS PROVIDED THE BEST WATER RAFT TOURS TO
-                GENERATIONS.
-                WE ARE A FAMILY OWNED COMPANY WHICH MEANS WE PROVIDE A FAMILY PACKAGE DISCOUNT. SAFETY OF OUR CLIENTS IS
-                OUR PRIORITY,
-                WE PROVIDE ADVANCED SAFETY EQUIPMENT TO ENSURE YOUR HAVE FUN WITH GUARANTEED SAFETY OF LIFE
+                Founded in 2001, Maguire and Ivan Water Rafting Company has provided the best whitewater rafting tours
+                to generations.
+                As a family-owned company, we offer special family discounts. Safety is our top priority — we provide
+                advanced safety equipment so you can have fun while staying secure.
             </p>
         </section>
 
         <section>
             <h2>Adventure Awaits You!</h2>
+            <p>Join us on the Nile for the ultimate rafting adventure — thrills, nature, and memories of a lifetime.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="current-year">2025</span> [MAGUIRE AND IVAN] | [Ivan Akena]</p>
-        <footer>
-            <p>&copy; <span id="current-year">2025</span> [MAGUIRE AND IVAN] | [Ivan Akena]</p>
-            <nav>
-                Facebook - Maguire and Ivan, twitter - maguireandIvan@waterraftting256, Tel - +256 744-2359-35
-            </nav>
+        <p>&copy; <span id="current-year">2025</span> Maguire and Ivan | Ivan Akena</p>
+        <nav>
+            Facebook - Maguire and Ivan | Twitter - @waterrafting256 | Tel - +256 744-2359-35
+        </nav>
 
-            <!-- Social media icons -->
-            <div class="socialmedia">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
-                </a>
-            </div>
-        </footer>
-
-
-
+        <!-- Social media icons -->
+        <div class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+        </div>
     </footer>
 
     <script>
-        // Update copyright year automatically
+        // Auto update year
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
